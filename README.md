@@ -9,5 +9,6 @@ click on the extension
 ![image](https://github.com/Srija-Manne/DaddyGame/assets/142595718/392fd5db-e826-4f8d-aab1-b44e8e9caf78)
 Click on help to know the instructions of the game
 * 3 coins are available for each player 
-* After placing 3 coins swap them until you won the game
-![Uploading image.png…]()
+* Swap the positions of three coins repeatedly until you achieve victory in the game
+  
+![image](https://github.com/Srija-Manne/DaddyGame/assets/142595718/d9429d22-cc86-414b-b401-a9cf83f775e7)
