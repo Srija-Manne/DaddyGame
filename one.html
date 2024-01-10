@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <tile>TicTokToe</tile>
+    <body>
+            <h1 style="text-align:center;">TICTOKTOE</h1>
+    </body>
+    <style>
+		* {
+			margin: 10;
+			padding: 0;
+		}
+
+		.navbar {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: sticky;
+			top: 0;
+			cursor: pointer;
+		}
+
+		.background {
+			background: black;
+			background-blend-mode: darken;
+			background-size: cover;
+		}
+
+		.nav-list {
+			width: 70%;
+			display: flex;
+			align-items: center;
+		}
+
+		.logo{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.logo img {
+			width: 100px;
+			border-radius: 50px;
+		}
+
+		.nav-list li {
+			list-style: none;
+			padding: 26px 30px;
+		}
+
+		.nav-list li a {
+			text-decoration: none;
+			color: white;
+		}
+
+		.nav-list li a:hover {
+			color: grey;
+		}
+
+		.rightnav {
+			width: 40%;
+			text-align: right;
+		}
+        #search {
+			padding: 5px;
+			font-size: 17px;
+			border: 2px solid grey;
+			border-radius: 9px;
+		}
+
+		.firstsection {
+			background-color: green;
+			height: 400px;
+		}
+
+		.secondsection {
+			background-color: blue;
+			height: 400px;
+		}
+
+		.box-main {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: black;
+			max-width: 80%;
+			margin: auto;
+			height: 80%;
+		}
+        .secondhalf img {
+			width: 70%;
+			border: 4px solid white;
+			border-radius: 150px;
+			display: block;
+			margin: auto;
+		}
+		.firsthalf {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.secondhalf {
+			width: 30%;
+		}
+		.text-big {
+			font-family: 'Piazzolla', serif;
+			font-weight: bold;
+			font-size: 35px;
+		}
+
+		.text-small {
+			font-size: 18px;
+		}
+
+		.btn {
+			padding: 8px 20px;
+			margin: 7px 0;
+			border: 2px solid white;
+			border-radius: 8px;
+			background: none;
+			color: white;
+			cursor: pointer;
+		}
+
+		.btn-sm {
+			padding: 6px 10px;
+			vertical-align: middle;
+		}
+
+		.section {
+			height: 400px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			max-width: 90%;
+			margin: auto;
+		}
+
+		.section-Left {
+			flex-direction: row-reverse;
+		}
+
+		.paras {
+			padding: 0px 65px;
+		}
+
+		.thumbnail img {
+			width: 250px;
+			border: 2px solid black;
+			border-radius: 26px;
+			margin-top: 19px;
+		}
+
+		.center {
+			text-align: center;
+		}
+        .vertical{
+            
+        }
+        .play-button-outer {
+        margin: 25% auto;
+        width: 10em;
+        height: 10em;
+        background-color: rgba(0, 0, 0, .25);
+         cursor: pointer;
+}
+
+.play-button {
+  margin: 0 auto;
+  top: 25%;
+  position: relative;  
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 2.5em 0 2.5em 5em;
+  border-color: transparent transparent transparent #000;
+  opacity: .75; 
+}
+
+.play-button-outer:hover {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.play-button-outer:hover .play-button {
+  opacity: 1;
+}
+    </style>
+    <body>
+        <nav class="navbar background">
+            <ul class="nav-list">
+                <div class="logo">
+                    <img src= "b1.jpg">
+                </div>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Play">Play</a></li>`
+            </ul>
+            <div class="rightNav">
+                <input type="text" name="search" id="search">
+                <button class="btn btn-sm">Search</button>
+            </div>
+            <section class="firstsection">
+                <div class="box-main">
+                    <div class="firstHalf">
+                        <h1 class="text-big" id="About">About</h1>
+                        <p class="text-small">
+                           It is an Update Version for TIC TAC TOE 
+                           We call it as TRIO because
+                           In this game we can swap like we play a game 
+                           in childhood called "daddy" 
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="secondsection">
+                <div class="box-main">
+                    <div class="secondhalf">
+                        <h1 class="text-big" id="Play">Play</h1>
+                        <p class="text-small">
+                            Let's play
+                        </p>
+                    </div>
+                </div>
+            </section>
+    </body>
+</head>
+</html>

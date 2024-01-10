@@ -1,0 +1,48 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+nav{
+    width: 100%;
+    overflow: auto;
+    background: black;
+}
+ul{
+    padding: 0;
+    margin:0 0 0 250px;
+    list-style: none;
+}
+
+li{
+    float:left;
+}
+li a{
+    width:100px;
+    display:block;
+    padding:20px 15px;
+    text-decoration: none;
+    font-family:arial;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+li a:hover{
+    background:gray;
+    text-transform: uppercase;
+}
+.logo img{
+    position:absolute;
+    margin-top:5px;
+    margin-left: 10px;
+}
+.container{
+    display: block;
+    justify-content: center;
+    align-content:"center" ;
+    margin:0px;
+    height: 100vh;
+  }
+.background{
+    background-image: url("b3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
