@@ -1,6 +1,6 @@
 Live-link: https://srija-manne.github.io/DaddyGame/anotherpage.html
 
-Add this extension to load the game
+Add this extension to load the game \n
 Chrome: https://chrome.google.com/webstore/detail/cheerpj-applet-runner/bbmolahhldcbngedljfadjlognfaaein/reviews
 Microsoftedge: https://microsoftedge.microsoft.com/addons/detail/cheerpj-applet-runner/ebfcpaoldmijengghefpohddmfpndmic?url=hot.copypasteads.com%2Fgirls
 
